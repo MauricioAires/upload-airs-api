@@ -1,3 +1,3 @@
 {
-  "recommendations": ["Prisma.prisma"]
+  "recommendations": ["Prisma.prisma", "humao.rest-client"]
 }

@@ -1,3 +1,9 @@
 
-# @name hello
-GET http://localhost:3333
+# @name get-prompts
+GET http://localhost:3333/prompts
+
+###
+
+# @name list-prompts
+
+GET http://localhost:3333/prompts

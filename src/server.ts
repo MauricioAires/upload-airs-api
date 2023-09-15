@@ -1,10 +1,9 @@
 import { fastify } from "fastify";
+import { getAllPromptsRoutes } from "./routes/get-all-prompts";
 
 const app = fastify();
 
-app.get("/", () => {
-  return "Hello world!";
-});
+app.register(getAllPromptsRoutes);
 
 app
   .listen({

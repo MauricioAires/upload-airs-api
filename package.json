@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
   "devDependencies": {
     "@types/node": "^20.6.1",
     "prettier": "^3.0.3",

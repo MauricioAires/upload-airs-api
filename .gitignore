@@ -132,3 +132,7 @@ dist
 # Prisma
 prisma/dev.db
 prisma/dev.db-journal
+
+# tmp
+tmp/*
+!tmp/.gitkeep

@@ -44,8 +44,8 @@ export async function uploadVideoRoute(app: FastifyInstance) {
     const fileUploadName = `${fileBaseName}-${randomUUID()}${extension}`;
 
     const uploadDestination = path.resolve(
-      __dirname,
-      "../../tmp",
+      process.cwd(),
+      "tmp",
       fileUploadName,
     );
 
